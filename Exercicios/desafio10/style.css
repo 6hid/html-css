@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+section > p {
+  padding: 10px;
+  text-indent: 30px;
+  font-family: Arial;
+  text-align: justify;
+}
+
+.cabecalho {
+  color: white;
+  background: linear-gradient(to bottom, #37c978, #207043, #1a5c38);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 150px;
+}
+
+.cabecalho > h1 {
+  position: relative;
+  top: 10px;
+}
+
+.cabecalho > p {
+  padding: 20px;
+  top: 10px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  text-align: left;
+  top: 15px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.menu > li:hover {
+  font-weight: bold;
+}
+.main-title {
+  font-size: 30px;
+  padding: 10px;
+  color: #064906dd;
+}
+.font-droid {
+  font-family: idroid;
+}
+
+.secundary-title {
+  background: linear-gradient(to right, #c4ebd5, #d0efde, #e9f7ef, #f3fbf7);
+  font-size: 20px;
+  padding: 10px;
+  color: #064906dd;
+  position: relative;
+  left: -30px;
+}
+.teste {
+  padding: 10px;
+  font-family: Arial;
+  text-indent: 30px;
+}
+.link {
+  text-decoration: none;
+  color: #064906dd;
+  font-weight: bold;
+}
+#video1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #064906dd;
+}
+#extra {
+  background-color: #82caa2e1;
+  border-radius: 40px;
+  margin: 20px;
+  padding: 10px;
+  font-family: arial;
+  font-weight: regular;
+  text-align: justify;
+  height: 500px;
+}
+#cabeca {
+  color: white;
+  background-color: #18ca68e1;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  top: -20px;
+  right: 10px;
+  width: 806px;
+  font-size: 20px;
+}
+
+#lista {
+  padding: 25px;
+}
+#lista2 {
+  padding: 25px;
+  text-align: justify;
+  position: relative;
+  right: -400px;
+  top: -185px;
+}
+
+#paragrafo1 {
+  position: relative;
+  text-align: justify;
+  top: -150px;
+}
+#paragrafo2 {
+  position: relative;
+  text-align: justify;
+  top: -100px;
+}
+footer {
+  background-color: #1a5c38;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}

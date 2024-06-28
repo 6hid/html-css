@@ -1,0 +1,40 @@
+/*    em HTML é id = CSS é #  ( só um elemento pro pagina)
+      em HTML é class = em css é (vários elementos com mesmo)
+
+*/
+body {
+  background-color: rgb(185, 231, 185);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgb(2, 20, 2);
+}
+
+h2 {
+  color: rgb(17, 74, 17);
+}
+
+h1#principal {
+  text-align: center;
+  background-color: rgb(2, 20, 2);
+  color: white;
+}
+
+.easy {
+  color: rgb(86, 150, 86);
+  font-weight: 800;
+}
+
+.medium {
+  color: yellow;
+  font-weight: 800;
+}
+
+.hard {
+  color: red;
+  font-weight: 800;
+}
+.destaque {
+  background-color: #bbbb7374;
+}
