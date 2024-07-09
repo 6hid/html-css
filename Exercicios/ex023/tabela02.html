@@ -9,33 +9,48 @@
         font-family: Arial, Helvetica, sans-serif;
       }
       table {
-        width: 500px;
+        width: 95dvw;
         border-collapse: collapse;
+        position: relative;
+      }
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: grey;
       }
       td,
       th {
         border: 1px solid black;
         padding: 10px;
       }
+
       thead,
       tfoot {
         background-color: grey;
         color: white;
       }
+
       .num {
         text-align: right;
+        padding-right: 15px;
       }
+
       caption {
         font-size: 1.5em;
         font-weight: bold;
         padding: 10px;
         background-color: lightgray;
       }
+
       tbody > tr:nth-child(even) {
         background-color: white;
       }
+
       tbody > tr:nth-child(odd) {
         background-color: lightgray;
+      }
+      .position {
+        width: 150px;
       }
     </style>
   </head>
@@ -64,137 +79,137 @@
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
+          <td class="position">1</td>
           <td>São Paulo</td>
           <td class="num">45 919 909</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td class="position">2</td>
           <td>Minas Gerais</td>
           <td class="num">21 168 171</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td class="position">3</td>
           <td>Rio de Janeiro</td>
           <td class="num">17 264 934</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td class="position">4</td>
           <td>Bahia</td>
           <td class="num">14 141 626</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td class="position">5</td>
           <td>Paraná</td>
           <td class="num">11 444 380</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td class="position">6</td>
           <td>Rio Grande do Sul</td>
           <td class="num">10 882 965</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td class="position">7</td>
           <td>Pernambuco</td>
           <td class="num">9 058 931</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td class="position">8</td>
           <td>Ceara</td>
           <td class="num">8 794 957</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td class="position">9</td>
           <td>Pará</td>
           <td class="num">8 121 025</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td class="position">10</td>
           <td>Santa Catarina</td>
           <td class="num">7 610 361</td>
         </tr>
         <tr>
-          <td>11</td>
+          <td class="position">11</td>
           <td>Góias</td>
           <td class="num">7 056 495</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td class="position">12</td>
           <td>Maranhão</td>
           <td class="num">6 775 805</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td class="position">13</td>
           <td>Paraiba</td>
           <td class="num">3 974 687</td>
         </tr>
         <tr>
-          <td>14</td>
+          <td class="position">14</td>
           <td>Amazonas</td>
           <td class="num">3 941 613</td>
         </tr>
         <tr>
-          <td>15</td>
+          <td class="position">15</td>
           <td>Espirito Santo</td>
           <td class="num">3 833 712</td>
         </tr>
         <tr>
-          <td>16</td>
+          <td class="position">16</td>
           <td>Mato Grosso</td>
           <td class="num">3 658 649</td>
         </tr>
         <tr>
-          <td>17</td>
+          <td class="position">17</td>
           <td>Rio Grande do Norte</td>
           <td class="num">3 302 729</td>
         </tr>
         <tr>
-          <td>18</td>
+          <td class="position">18</td>
           <td>Piaui</td>
           <td class="num">3 271 199</td>
         </tr>
         <tr>
-          <td>19</td>
+          <td class="position">19</td>
           <td>Alagoas</td>
           <td class="num">3 127 683</td>
         </tr>
         <tr>
-          <td>20</td>
+          <td class="position">20</td>
           <td>Distrito Federal</td>
           <td class="num">2 817 381</td>
         </tr>
         <tr>
-          <td>21</td>
+          <td class="position">21</td>
           <td>Mato Grosso do Sul</td>
           <td class="num">2 757 013</td>
         </tr>
         <tr>
-          <td>22</td>
+          <td class="position">22</td>
           <td>Sergipe</td>
           <td class="num">2 209 558</td>
         </tr>
         <tr>
-          <td>23</td>
+          <td class="position">23</td>
           <td>Rondonia</td>
           <td class="num">1 581 196</td>
         </tr>
         <tr>
-          <td>24</td>
+          <td class="position">24</td>
           <td>Tocantins</td>
           <td class="num">1 511 460</td>
         </tr>
         <tr>
-          <td>25</td>
+          <td class="position">25</td>
           <td>Acre</td>
           <td class="num">830 018</td>
         </tr>
         <tr>
-          <td>26</td>
+          <td class="position">26</td>
           <td>Amapa</td>
           <td class="num">733 759</td>
         </tr>
         <tr>
-          <td>27</td>
+          <td class="position">27</td>
           <td>Roraima</td>
           <td class="num">636 707</td>
         </tr>
@@ -205,5 +220,176 @@
         <td class="num"><strong>210 147 125</strong></td>
       </tfoot>
     </table>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto
+      labore fugiat perferendis officiis id eius esse. Hic minima dolorem enim
+      odio! Libero excepturi mollitia earum veritatis, sequi dignissimos
+      dolores? Corrupti voluptate ducimus, corporis non nihil doloribus
+      asperiores recusandae reiciendis in a consequatur voluptatibus, alias
+      numquam iusto tenetur possimus itaque id laborum officiis cum?
+      Reprehenderit vel ipsa repellendus hic modi? Modi ducimus quas aliquid
+      pariatur soluta et libero ipsam assumenda doloremque. Ab omnis ea
+      consequuntur maxime eaque. Dolores, officia dignissimos, iste aperiam
+      autem, libero natus molestiae facilis nobis obcaecati vero! Esse eum vitae
+      aut, ad nam possimus qui suscipit, distinctio minus nemo sequi molestiae
+      vero! Ratione veniam, rerum dolorum maxime minus voluptates dolore vitae,
+      reprehenderit ad quas quod soluta repellendus! Facere harum consequatur,
+      labore magni eius doloribus possimus blanditiis molestias beatae
+      consequuntur necessitatibus mollitia at inventore tempora! Unde iusto
+      ipsum aperiam repudiandae voluptatum soluta porro assumenda accusamus?
+      Exercitationem, iste in.
+    </p>
   </body>
 </html>
