@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Hardcore</title>
+    <style>
+      table {
+        padding: 10px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        height: 500px;
+      }
+
+      th {
+        border: 1px solid black;
+        background-color: grey;
+        color: white;
+      }
+      td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      #mediaexatas,#mediahumanas {
+        text-align: center;
+        padding: 5px;
+      }
+
+  
+      #humanas,#exatas {
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" rowspan="2">Área</th>
+          <th scope="col" rowspan="2">Disciplinas</th>
+          <th scope="colgroup" colspan="2">Notas</th>
+          <th scope="col" rowspan="2">Média</th>
+        </tr>
+        <tr>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="rowgroup" id="exatas" rowspan="4">Exatas</td>
+          <td>Matemática</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Quimica</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Biologia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <th scope="row" id="mediaexatas" colspan="4">Média de Exatas</th>
+          <th>0.0</td>
+        </tr>
+        <tr>
+          <td scope="rowgroup" id="humanas" rowspan="2">Humanas</td>
+          <td>História</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Geografia</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+        </tr>
+         <tr>
+          <th scope="row" id="mediahumanas" colspan="4">Média de Humanas</th>
+          <th>0.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
