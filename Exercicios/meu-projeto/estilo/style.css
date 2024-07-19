@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  background-image: url(../imagens/wallpaper.tijolo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+#teladesktop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgb(140, 124, 41);
+  height: 70%;
+  width: 100%;
+  min-width: 300px;
+  min-height: 280px;
+  max-width: 1300px;
+  background-image: url(../imagens/telanova.png);
+  background-size: 100% 100%;
+}
+
+iframe#tela {
+  background-color: blue;
+  position: absolute;
+  background: url(../imagens/tanjiro.wallpaper.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95%;
+  top: 0%;
+}
+
+#icones {
+  z-index: 961;
+  display: flex;
+  gap: 30px;
+}
+
+#icones > a > img {
+  transition: 0.1s;
+  border-radius: 50%;
+  width: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+#icones > a > img:hover {
+  border-radius: 0%;
+  border: 1px solid rgba(255, 0, 0, 1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.379);
+  transition: 1s;
+  transform: translate(-4px, -4px);
+}
