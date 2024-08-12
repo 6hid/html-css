@@ -28,6 +28,7 @@
     background-image: url(imagens/back-print.jpg);
     font-family: "Courier New", Courier, monospace;
   }
+
   main {
     border: 2px solid black;
     width: 95%;
@@ -65,7 +66,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /*TABLETS*/
   body {
-    background-image: url(imagens/back-tablet.jpg);
+    background-image: url(../imagens/back-tablet.jpg);
   }
 
   img#phone {
@@ -95,7 +96,7 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   /*Desktop*/
   body {
-    background-image: url(imagens/back-pc.jpg);
+    background-image: url(../imagens/back-pc.jpg);
   }
 
   img#phone {
@@ -125,7 +126,7 @@
 @media screen and (min-width: 1200px) {
   /*Grandes Telas*/
   body {
-    background-image: url(imagens/back-tv.jpg);
+    background-image: url(../imagens/back-tv.jpg);
   }
 
   img#phone {
